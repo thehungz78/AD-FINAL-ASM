@@ -175,7 +175,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         // Cần chỉnh lại LIKE để khớp chính xác MM/YYYY: '%%/MM/YYYY'
         Cursor c = db.query(TABLE_TRANSACTION, null,
                 TRANS_USER_ID + "=? AND " + TRANS_DATE + " LIKE ?",
-                new String[]{String.valueOf(userId), "__/" + monthYear},
+                new String[]{String.valueOf(userId), "%/" + monthYear},
                 null, null, null);
         if (c.moveToFirst()) {
             do {
