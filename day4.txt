@@ -1,0 +1,22 @@
+# EXPENSE MANAGER (APP QUẢN LÝ CHI TIÊU)
+Bài tập lớn môn Lập trình Android - Nhóm 5
+
+## 👥 Thành Viên Nhóm
+| STT | Thành viên | Vai trò | Chức năng phụ trách |
+|-----|-----------|---------|---------------------|
+| 1   | Nguyễn Thế Hưng | Nhóm trưởng | Core, Transaction (Thêm/Sửa/Xóa GD) |
+| 2   | [Tên_Hải_Đường] | Thành viên | Calendar (Lịch), Statistics (Thống kê) |
+| 3   | [Tên_Đức_Hưng] | Thành viên | User (Đăng nhập/Đăng ký), Report (Báo cáo), Notify |
+
+## 📱 Giới thiệu
+Ứng dụng giúp sinh viên và người đi làm quản lý tài chính cá nhân hiệu quả với các tính năng:
+- **Quản lý thu chi:** Ghi chép chi tiêu hằng ngày theo danh mục.
+- **Xem lịch sử:** Theo dõi dòng tiền trực quan trên Lịch.
+- **Báo cáo:** Biểu đồ thống kê trực quan (Pie Chart).
+- **An toàn:** Tài khoản cá nhân bảo mật với mật khẩu.
+
+## 🛠 Công nghệ sử dụng
+- Ngôn ngữ: Java (Android Native)
+- Cơ sở dữ liệu: SQLite
+- IDE: Android Studio
+- Phiên bản: 1.0 (Final)

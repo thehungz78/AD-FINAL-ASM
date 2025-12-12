@@ -1,0 +1,3 @@
+git add .
+git commit -m "Day 7: TheHung finalized MainActivity version"
+git push origin TheHung
