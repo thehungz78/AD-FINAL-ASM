@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cardPieChart"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    app:cardCornerRadius="12dp"
+    app:cardElevation="4dp"
+    app:cardBackgroundColor="#FFFFFF">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <com.github.mikephil.charting.charts.PieChart
+            android:id="@+id/chartPie"  android:layout_width="140dp"
+            android:layout_height="140dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+        <LinearLayout
+            android:id="@+id/layoutLegend"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="16dp"
+            app:layout_constraintStart_toEndOf="@+id/chartPie"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent">
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Ăn uống: 42%" android:textColor="#FF9800" android:drawableStart="@drawable/dot_orange" android:drawablePadding="5dp" android:paddingVertical="2dp"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Di chuyển: 30%" android:textColor="#2196F3" android:drawableStart="@drawable/dot_blue" android:drawablePadding="5dp" android:paddingVertical="2dp"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Hóa đơn: 18%" android:textColor="#4CAF50" android:drawableStart="@drawable/dot_green" android:drawablePadding="5dp" android:paddingVertical="2dp"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Khác: 10%" android:textColor="@android:color/darker_gray" android:drawableStart="@drawable/dot_gray" android:drawablePadding="5dp" android:paddingVertical="2dp"/>
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

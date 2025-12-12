@@ -1,0 +1,17 @@
+# ỨNG DỤNG QUẢN LÝ CHI TIÊU (EXPENSE MANAGER)
+Bài tập lớn môn Lập trình Android (SE07203) - Nhóm 5
+
+## 👥 Thành viên nhóm & Phân công
+1. Nguyễn Thế Hưng (Trưởng nhóm): Code chức năng Giao dịch (Transaction) & Core.
+2. [Tên_Hải_Đường]: Code chức năng Lịch (Calendar) & Thống kê.
+3. [Tên_Đức_Hưng]: Code chức năng User, Báo cáo (Report) & Thông báo.
+
+## 🚀 Tính năng đã hoàn thiện
+- Đăng nhập/Đăng ký (Login/Register Activity).
+- Thêm/Sửa/Xóa chi tiêu.
+- Xem báo cáo biểu đồ (PieChart).
+- Nhắc nhở thông báo (Notifications).
+
+## 🛠 Công nghệ
+- Android Java
+- SQLite Database
